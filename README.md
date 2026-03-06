@@ -8,29 +8,29 @@ This project was built during a hackathon.
 
 ---
 
-## ✨ Features
+## Features
 
-### 🤖 AI-Powered
+### AI-Powered
 - **Summarize any page** — one click generates a concise bullet-point summary tailored to your reading level
 - **Chat about the page** — ask follow-up questions and have a full conversation grounded in the page's content
 - **Multi-language support** — responses in English, Spanish, or Russian
 - **Reading level adjustment** — Elementary through College; the AI adapts its vocabulary and complexity accordingly
 
-### 🔊 Accessibility
+### Accessibility
 - **Text-to-speech** — highlight any text on the page and a floating button appears to read it aloud (powered by ElevenLabs with browser speech fallback)
 - **Dyslexia mode** — toggles OpenDyslexic font and improved letter/line spacing across the entire page
 
-### 🎨 Customization
+### Customization
 - **4 characters** — Owl, Cat, Fox, or Bear
 - **Custom colors** — pick body and belly color for your character
 - **Draggable** — position the buddy anywhere on screen; it stays out of your way
 
-### 💾 History
+### History
 - Save full chat conversations to the cloud (AWS) and reload them from any session via the History panel
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ![Summary demo](assets/demo-summary.png)
 ![Settings](assets/settings.png)
@@ -38,7 +38,7 @@ This project was built during a hackathon.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -51,7 +51,7 @@ This project was built during a hackathon.
 
 ---
 
-## 🚀 Installation (Load Unpacked)
+## Installation (Load Unpacked)
 
 > No Chrome Web Store listing yet — load it manually in developer mode.
 
@@ -68,16 +68,11 @@ This project was built during a hackathon.
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 1. Get a free **Google Gemini API key** at [aistudio.google.com](https://aistudio.google.com/app/apikey)
 2. Click the Study Buddy character on any page → open the icon bar → **Settings ⚙️**
 3. Paste your key in the **Gemini API Key** field and hit **Apply Changes**
-
-That's it — summaries and chat will now work on any page.
-
-**Optional — ElevenLabs TTS voices:**
-For higher quality read-aloud, add your [ElevenLabs API key](https://elevenlabs.io) in `src/content/tts.js`. Without it, the extension falls back to the browser's built-in speech synthesis automatically.
 
 ---
 
@@ -108,14 +103,8 @@ assets/                       # Screenshots and demo GIFs
 
 ---
 
-## 🗺️ Future Work
+## Future Work
 
 - [ ] Additional TTS voices
 - [ ] Keyboard shortcut to open/close chat
 - [ ] Chrome Web Store release
-
----
-
-## 📄 License
-
-MIT

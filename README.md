@@ -1,8 +1,10 @@
-# 🦉 Study Buddy — AI Reading Companion
+# Study Buddy – AI Reading Assistant (Chrome Extension)
 
-Reading comprehension tools are often clunky separate apps — Study Buddy lives directly on the page itself, making AI assistance feel natural rather than disruptive. Drag it anywhere, ask it anything, and never lose your place.
+Study Buddy is a Chrome extension that helps users summarize webpages and ask questions about the content without leaving the page.
 
-Built as a hackathon project.
+The extension provides an in-page chat interface powered by Google Gemini and stores chat history using an AWS serverless backend.
+
+This project was built during a hackathon.
 
 ---
 

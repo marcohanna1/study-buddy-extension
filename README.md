@@ -17,8 +17,8 @@ This project was built during a hackathon.
 - **Reading level adjustment** - Elementary through College; the AI adapts its vocabulary and complexity accordingly
 
 ### Accessibility
-- **Text-to-speech - highlight any text on the page and a floating button appears to read it aloud (powered by ElevenLabs with browser speech fallback)
-- **Dyslexia mode - toggles OpenDyslexic font and improved letter/line spacing across the entire page
+- **Text-to-speech** - highlight any text on the page and a floating button appears to read it aloud (powered by ElevenLabs with browser speech fallback)
+- **Dyslexia mode** - toggles OpenDyslexic font and improved letter/line spacing across the entire page
 
 ### Customization
 - **4 characters** - Owl, Cat, Fox, or Bear

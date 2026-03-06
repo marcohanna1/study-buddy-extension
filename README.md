@@ -11,19 +11,19 @@ This project was built during a hackathon.
 ## Features
 
 ### AI-Powered
-- **Summarize any page** — one click generates a concise bullet-point summary tailored to your reading level
-- **Chat about the page** — ask follow-up questions and have a full conversation grounded in the page's content
-- **Multi-language support** — responses in English, Spanish, or Russian
-- **Reading level adjustment** — Elementary through College; the AI adapts its vocabulary and complexity accordingly
+- **Summarize any page** - one click generates a concise bullet-point summary tailored to your reading level
+- **Chat about the page** - ask follow-up questions and have a full conversation grounded in the page's content
+- **Multi-language support** - responses in English, Spanish, or Russian
+- **Reading level adjustment** - Elementary through College; the AI adapts its vocabulary and complexity accordingly
 
 ### Accessibility
-- **Text-to-speech** — highlight any text on the page and a floating button appears to read it aloud (powered by ElevenLabs with browser speech fallback)
-- **Dyslexia mode** — toggles OpenDyslexic font and improved letter/line spacing across the entire page
+- **Text-to-speech** - highlight any text on the page and a floating button appears to read it aloud (powered by ElevenLabs with browser speech fallback)
+- **Dyslexia mode** - toggles OpenDyslexic font and improved letter/line spacing across the entire page
 
 ### Customization
-- **4 characters** — Owl, Cat, Fox, or Bear
-- **Custom colors** — pick body and belly color for your character
-- **Draggable** — position the buddy anywhere on screen; it stays out of your way
+- **4 characters** - Owl, Cat, Fox, or Bear
+- **Custom colors** - pick body and belly color for your character
+- **Draggable** - position the buddy anywhere on screen; it stays out of your way
 
 ### History
 - Save full chat conversations to the cloud (AWS) and reload them from any session via the History panel
@@ -53,7 +53,7 @@ This project was built during a hackathon.
 
 ## Installation (Load Unpacked)
 
-> No Chrome Web Store listing yet — load it manually in developer mode.
+> No Chrome Web Store listing yet - load it manually in developer mode.
 
 1. Clone or download this repo
 2. Open a terminal in the project folder and run:
@@ -64,19 +64,19 @@ This project was built during a hackathon.
 3. Open Chrome and go to `chrome://extensions`
 4. Enable **Developer mode** (top right toggle)
 5. Click **Load unpacked** and select the `dist/` folder
-6. The 🦉 icon will appear in your extensions bar
+6. The icon will appear in your extensions bar
 
 ---
 
 ## Setup
 
 1. Get a free **Google Gemini API key** at [aistudio.google.com](https://aistudio.google.com/app/apikey)
-2. Click the Study Buddy character on any page → open the icon bar → **Settings ⚙️**
+2. Click the Study Buddy character on any page → open the icon bar → **Settings **
 3. Paste your key in the **Gemini API Key** field and hit **Apply Changes**
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -91,7 +91,7 @@ src/
 │   ├── HistoryView.jsx       # Saved chats panel
 │   └── SettingsModal.jsx     # Full settings overlay
 ├── content/
-│   ├── StudyBuddy.jsx        # Main component — renders character + all UI
+│   ├── StudyBuddy.jsx        # Main component - renders character + all UI
 │   ├── dyslexiaMode.js       # OpenDyslexic font injection
 │   ├── tts.js                # Floating TTS button on text selection
 │   └── index.jsx             # Content script entry point
@@ -105,6 +105,6 @@ assets/                       # Screenshots and demo GIFs
 
 ## Future Work
 
-- [ ] Additional TTS voices
-- [ ] Keyboard shortcut to open/close chat
-- [ ] Chrome Web Store release
+- Additional TTS voices
+- Keyboard shortcut to open/close chat
+- Chrome Web Store release
